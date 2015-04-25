@@ -1,0 +1,43 @@
+/*************Link Styles****************/
+
+a:link {
+	color: #00F;
+	text-decoration: none;
+}
+	
+a:visited {
+	text-decoration: none;
+	color: #90C;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #3F6;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
+/*************END Link Styles****************/
+
+/*************Font Styles********************/
+h1,
+h3, 
+h4,
+p {
+	font-family: "Open Sans", sans-serif;
+	color: #666;
+}
+	
+/*************END Font Styles********************/
+
+/*************Media Queries********************/
+
+@media only screen and (max-width: 980px){
+#logo {
+	display: none;
+}
+}
+
+/*************END Media Queries********************/
